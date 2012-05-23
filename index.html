@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <style>
+      figure { background: #e3e3e3; display: block; float: left;}
+      #zoom {
+          width: 200px; 
+          -webkit-transition: width 1s;
+      }
+      #zoom:target {
+         width: 400px;
+         
+      }
+    </style>
+</head>
+<body>
+   <h1> "Click" Effect with CSS </h1>
+   <figure>
+      <img id="zoom" src="placeholder.png" alt="EE" />
+      <figcaption>
+         <ul>
+            <li>
+               <a href="#zoom">Zoom In</a>
+            </li>
+            <li>
+               <a href="#">Zoom Out</a>
+            </li>
+         </ul>
+      </figcaption>
+   </figure>
+</body>
+</html>
